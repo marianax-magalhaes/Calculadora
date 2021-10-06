@@ -1,0 +1,4 @@
+br/com/calculadora/controller/CalculadoraController.class
+br/com/calculadora/domain/Operacao.class
+br/com/calculadora/services/CalculadoraService$1.class
+br/com/calculadora/services/CalculadoraService.class

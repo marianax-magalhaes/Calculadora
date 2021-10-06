@@ -1,0 +1,16 @@
+<main>
+    <input type="number" name ="a" id="a" [(ngModel)]="operandoA">
+    
+    <select name="operador" id="operador" [(ngModel)]="operador">
+        <option value="0">+</option>
+        <option value="1">-</option>
+        <option value="2">*</option>
+        <option value="3">/</option>
+    </select>
+
+    <input type="number" name ="b" id="b" [(ngModel)]="operandoB">
+
+    <button (click)="calcular()">Calcular!</button>
+
+    {{operandoA}} {{operador}} {{operandoB}}
+</main>
